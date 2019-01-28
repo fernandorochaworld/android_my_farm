@@ -1,13 +1,11 @@
 package br.com.inteligenti.fazenda;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class LoginActivity extends AppCompatActivity {
+public class SignupActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,11 +19,6 @@ public class LoginActivity extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
 //set content view AFTER ABOVE sequence (to avoid crash)
-        this.setContentView(R.layout.activity_login);
-    }
-
-    public void signup(View view)
-    {
-        startActivity(new Intent(this, SignupActivity.class));
+        this.setContentView(R.layout.activity_signup);
     }
 }
