@@ -85,6 +85,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/background_login"
                 android:text="Login in"
+                android:onClick="signin"
                 android:textColor="#f16f7d"
                 android:textAllCaps="false"
                 android:padding="16dp"
