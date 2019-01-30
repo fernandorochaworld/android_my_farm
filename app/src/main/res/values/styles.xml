@@ -20,6 +20,7 @@
 
     <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
         <item name="colorAccent">#fff</item>
+        <item name="backgroundTint">#fff</item>
     </style>
 
 </resources>
